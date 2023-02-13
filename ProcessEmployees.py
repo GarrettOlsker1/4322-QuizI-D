@@ -10,32 +10,50 @@ Iternate through the dictionary to print out their name and thier new salary (as
 
 import csv
 
-#open the file
+# open the file
 
+employee_data = open('employee_data.csv', 'w')
 
+# create an empty dictionary
 
+dict = {}
 
-#create an empty dictionary
+# use a loop to iterate through the csv file
 
+for z in employee_data.csv:
+    print(z)
 
-#use a loop to iterate through the csv file
+    # check if the employee fits the search criteria
+readcsv = csv.reader(employee_data, delimiter(","))
 
+employee_data.write("Name" + "" + "Salary")
+print()
 
-    #check if the employee fits the search criteria
-
-
-    
+for row in readcsv:
+    print()
 
 print()
 print('=========================================')
 print()
 
-#iternate through the dictionary and print out the key and value as per printout
+# iternate through the dictionary and print out the key and value as per printout
+
+dict = []
+
+dict["First Name"]
+dict["Last Name"]
+dict["Salary"]
 
 
+outfile = open("employee_data.csv", "w")
+outfile.write("Name, Salary")
 
-          
-        
+list1 = datastore[dict]
 
-        
-    
+for dict in list1:
+    Names = dict["Name"]
+    New_Sal = dict["Salary"]
+
+outfile.write(str(Names) + ',' + str(New_sal))
+
+outfile.close()
